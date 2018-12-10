@@ -31,17 +31,25 @@
     <AppXManifest Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-10T01:17:01.412</Modified>
+      <Modified>2018-12-10T03:38:38.536</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\ActividadesDeApoyo.UWP.exe">
       <PackagePath>entrypoint\ActividadesDeApoyo.UWP.exe</PackagePath>
-      <Modified>2018-12-10T01:16:56.785</Modified>
+      <Modified>2018-12-10T03:38:35.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
       <Modified>2018-05-09T17:57:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.data.sqlite.core\2.2.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2018-11-13T00:31:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.dotnet.platformabstractions\2.1.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll">
+      <PackagePath>Microsoft.DotNet.PlatformAbstractions.dll</PackagePath>
+      <Modified>2018-05-16T03:01:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
@@ -54,6 +62,10 @@
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
       <Modified>2018-11-13T00:31:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
+      <Modified>2018-11-13T00:31:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.SqlServer.dll</PackagePath>
@@ -86,6 +98,10 @@
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
       <Modified>2018-11-11T07:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
+      <Modified>2018-05-16T03:01:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
@@ -755,6 +771,26 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-05-16T23:28:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2018-05-02T17:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2018-05-02T17:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2018-05-02T17:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2018-05-02T17:44:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2018-05-02T17:44:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\syncfusion.licensing\16.3.0.36\lib\uap10.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
       <Modified>2018-11-28T03:13:20.000</Modified>
@@ -865,7 +901,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.dll">
       <PackagePath>ActividadesDeApoyo.dll</PackagePath>
-      <Modified>2018-12-09T21:20:19.588</Modified>
+      <Modified>2018-12-10T03:38:23.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -1012,11 +1048,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-10T01:16:55.800</Modified>
+      <Modified>2018-12-10T03:38:35.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-10T01:16:55.801</Modified>
+      <Modified>2018-12-10T03:38:35.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1117,11 +1153,11 @@
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-10T01:16:59.782</Modified>
+      <Modified>2018-12-10T03:17:29.693</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Core\ActividadesDeApoyo.UWP.exe">
       <PackagePath>ActividadesDeApoyo.UWP.exe</PackagePath>
-      <Modified>2018-12-10T01:17:01.398</Modified>
+      <Modified>2018-12-10T03:38:38.515</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

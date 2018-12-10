@@ -3,10 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ActividadesDeApoyo.Views.CatActividades.FicViCatActividadesRead">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout VerticalOptions="StartAndExpand" Padding="20">
+
+               
+                <Label Text="Id: "/>
+                <Entry Text="{Binding Actividad.IdActividad}" IsEnabled="false"/>
+
+                <Label Text="Descripción: "/>
+                <Entry Text="{Binding Actividad.DesActividad}" IsEnabled="false"/>
+
+                <Label Text="Detalle: "/>
+                <Entry Text="{Binding Actividad.Detalle}" IsEnabled="false"/>
+
+                <Label Text="Fecha de registro: "/>
+                <Entry Text="{Binding Actividad.FechaReg}" IsEnabled="false"/>
+
+                <Label Text="Usuario: "/>
+                <Entry Text="{Binding Actividad.UsuarioReg}" IsEnabled="false"/>
+
+                <Label Text="Usuario modifica: "/>
+                <Entry Text="{Binding Actividad.UsuarioMod}" IsEnabled="false"/>
+
+
+                <Label Text="Activo: "/>
+                <Switch IsToggled="{Binding Actividad.Activo}" IsEnabled="false"></Switch>
+
+                <Label Text="Borrado: "/>
+                <Switch IsToggled="{Binding Actividad.Borrado}" IsEnabled="false"></Switch>
+
+                <Button Text="Atras" Command="{Binding BackNavgCommand}" BackgroundColor="DarkRed" TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

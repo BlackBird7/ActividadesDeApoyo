@@ -3,10 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ActividadesDeApoyo.Views.CatActividades.FicViCatActividadesCreate">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout VerticalOptions="StartAndExpand" Padding="20">
+
+                <Label Text="Descripcion"/>
+                <Entry Text="{Binding Actividad.DesActividad}"/>
+
+                <Label Text="Detalle "/>
+                <Entry Text="{Binding Actividad.Detalle}"/>
+
+                <Label Text="Usuario"/>
+                <Entry Text="{Binding Localidad.UsuarioReg}"/>
+
+                <Label Text="Activo: "/>
+                <Switch IsToggled="{Binding Localidad.Activo}"></Switch>
+
+                <Label Text="Borrado: "/>
+                <Switch IsToggled="{Binding Localidad.Borrado}"></Switch>
+
+                <Button Text="Aceptar"  Command="{Binding FicMetCreateCommand}"/>
+                <Button Text="Cancelar" Command="{Binding BackNavgCommand}"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

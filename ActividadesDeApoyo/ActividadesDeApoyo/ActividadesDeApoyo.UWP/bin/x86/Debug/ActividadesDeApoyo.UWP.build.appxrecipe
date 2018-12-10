@@ -31,6 +31,12 @@
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.data.sqlite.core\2.2.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.dotnet.platformabstractions\2.1.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll">
+      <PackagePath>Microsoft.DotNet.PlatformAbstractions.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
     </AppxPackagedFile>
@@ -39,6 +45,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.SqlServer.dll</PackagePath>
@@ -63,6 +72,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
@@ -564,6 +576,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\syncfusion.licensing\16.3.0.36\lib\uap10.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>

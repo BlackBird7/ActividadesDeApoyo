@@ -23,6 +23,11 @@
     <Jar>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\71\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\72\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\73\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\74\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\75\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\49\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\52\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\57\jl\res</ResolvedResourceDirectory>
@@ -39,6 +44,11 @@
     <ResolvedResourceDirectory>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\20\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\71\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\72\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\73\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\74\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\75\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\49\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\52\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\57\jl\assets</ResolvedAssetDirectory>
@@ -48,6 +58,11 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\71.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\72.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\73.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\74.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\75.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\49.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\52.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.Android\obj\Debug\MonoAndroid81\lp\57.stamp</ResolvedResourceDirectoryStamp>

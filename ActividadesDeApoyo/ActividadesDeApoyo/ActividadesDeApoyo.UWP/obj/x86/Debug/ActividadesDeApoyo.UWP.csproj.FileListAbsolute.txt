@@ -395,3 +395,14 @@ D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApo
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\obj\x86\Debug\Syncfusion.Core.XForms.UWP.pri.xml
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\obj\x86\Debug\Syncfusion.SfInput.UWP.pri.xml
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\obj\x86\Debug\Syncfusion.SfShared.UWP.pri.xml
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Microsoft.Data.Sqlite.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_green.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\e_sqlite3.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\obj\x86\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\obj\x86\Debug\Microsoft.EntityFrameworkCore.Sqlite\en-US\Microsoft.EntityFrameworkCore.Sqlite.Properties.SqliteStrings.resw
