@@ -50,21 +50,21 @@ namespace ActividadesDeApoyo.ViewModels.CatActividades
         #endregion
 
 
-        #region METODO: MUESTRA LISTADO DE LOCALIDADES EN GRID
+        #region METODO: MUESTRA LISTADO DE Actividades EN GRID
         public async override void OnAppearing(object navigationContext)
         {
             base.OnAppearing(navigationContext);
             var lista = await FicLoSrvApp.FicMetGetListActividades();
             ItemSource_Actividades = new ObservableCollection<cat_actividades>();
 
-            foreach (var localidad in lista)
+            foreach (var actividad in lista)
             {
-                ItemSource_Actividades.Add(localidad);
+                ItemSource_Actividades.Add(actividad);
             }
         }
         #endregion
 
-        #region METODO: ENVIA A VIEW PARA CREAR LOCALIDAD
+        #region METODO: ENVIA A VIEW PARA CREAR ACTIVIDAD
         private ICommand CreateActividad;
         public ICommand FicMetCreateCommand
         {
@@ -80,7 +80,7 @@ namespace ActividadesDeApoyo.ViewModels.CatActividades
         }
         #endregion
 
-        #region METODO: ENVIA A VIEW PARA ACTUALIZAR CON LA COLONIA SELECCIONADA COMO PARAMETRO
+        #region METODO: ENVIA A VIEW PARA ACTUALIZAR CON LA ACTIVIDAD SELECCIONADA COMO PARAMETRO
         private ICommand UpdateActividad;
         public ICommand FicMetUpdateCommand
         {

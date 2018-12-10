@@ -4,6 +4,7 @@ using System.Text;
 using Xamarin.Forms;
 using Microsoft.EntityFrameworkCore;
 using ActividadesDeApoyo.Models.Actividades;
+using System.Data;
 
 namespace ActividadesDeApoyo.Data
 {

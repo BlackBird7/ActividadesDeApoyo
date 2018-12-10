@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 using ActividadesDeApoyo.Services.CatActividades;
 using ActividadesDeApoyo.ViewModels.CatActividades;
 using ActividadesDeApoyo.Helpers;
+
 using ActividadesDeApoyo.Data;
 using ActividadesDeApoyo.Interfaces.SQLite;
 using ActividadesDeApoyo.Models.Actividades;
 
-namespace ActividadesDeApoyo.Views
+namespace ActividadesDeApoyo.Views.CatActividades
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FicViCatActividadesList : ContentPage
@@ -47,6 +49,7 @@ namespace ActividadesDeApoyo.Views
             if (viewModel != null) viewModel.OnDisappearing();
         }
         #endregion
+
         #region METODO PARA ELIMINAR ACTIVIDAD
         protected async void FicMetDeleteCommand(object sender, EventArgs e)
         {
@@ -64,11 +67,11 @@ namespace ActividadesDeApoyo.Views
             dataGrid.View.Refresh();
         }
 
-        public async Task FicMetDeleteActividad(cat_actividades localidad)
+        public async Task FicMetDeleteActividad(cat_actividades actividad)
         {
             using (await ficMutex.LockAsync().ConfigureAwait(false))
             {
-                FicLoDBContext.Entry(localidad).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+                FicLoDBContext.Entry(actividad).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
                 FicLoDBContext.SaveChanges();
             }
         }

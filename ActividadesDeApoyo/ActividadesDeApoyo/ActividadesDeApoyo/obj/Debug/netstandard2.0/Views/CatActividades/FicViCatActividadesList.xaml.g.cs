@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ActividadesDeApoyo.Views.CatActividades.FicViCatActividadesList.xaml", "Views/CatActividades/FicViCatActividadesList.xaml", typeof(global::ActividadesDeApoyo.Views.FicViCatActividadesList))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("ActividadesDeApoyo.Views.CatActividades.FicViCatActividadesList.xaml", "Views/CatActividades/FicViCatActividadesList.xaml", typeof(global::ActividadesDeApoyo.Views.CatActividades.FicViCatActividadesList))]
 
-namespace ActividadesDeApoyo.Views {
+namespace ActividadesDeApoyo.Views.CatActividades {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CatActividades\\FicViCatActividadesList.xaml")]

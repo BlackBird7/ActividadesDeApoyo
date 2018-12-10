@@ -66,7 +66,7 @@ namespace ActividadesDeApoyo.ViewModels.CatActividades
                 Actividad.Borrado = "N";
             }
 
-            FicLoSrvApp.FicMetUpdateActividad(Actividad);
+            FicLoSrvApp.FicMetUpdateActividades(Actividad);
             FicLoSrvNavigation.FicMetNavigateBack();
         }
         #endregion

@@ -1,28 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ActividadesDeApoyo.Views.FicViCatActividadesList"
-			 Title="Actividades"
-			 xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+             x:Class="ActividadesDeApoyo.Views.CatActividades.FicViCatActividadesList"
+              xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             Title="Actividades">
     <ContentPage.ToolbarItems>
-        <!--Nueva Actividad-->
-        <ToolbarItem Name="Nueva Actividad" 
-                     Command="{Binding FicMetCreateCommand}"></ToolbarItem>
+        <!--Nueva colonia-->
+        <ToolbarItem Name="Nueva Actividad" Command="{Binding FicMetCreateCommand}"></ToolbarItem>
 
-        <!--Ver Actividad-->
-        <ToolbarItem Name="Ver Actividad" 
-                     Command="{Binding FicMetReadCommand}"></ToolbarItem>
+        <!--Ver colonia-->
+        <ToolbarItem Name="Ver Actividad" Command="{Binding FicMetReadCommand}"></ToolbarItem>
 
-        <!--Editar Actividad-->
-        <ToolbarItem Name="Editar Actividad" 
-                     Command="{Binding FicMetUpdateCommand}" ></ToolbarItem>
+        <!--Editar colonia-->
+        <ToolbarItem Name="Editar Actividad" Command="{Binding FicMetUpdateCommand}" ></ToolbarItem>
 
-        <!--Eliminar Actividad-->
-        <ToolbarItem Name="Eliminar Actividad" 
-                     Clicked="FicMetDeleteCommand"></ToolbarItem>
+        <!--Eliminar colonia-->
+        <ToolbarItem Name="Eliminar Actividad" Clicked="FicMetDeleteCommand"></ToolbarItem>
     </ContentPage.ToolbarItems>
-    ut>
-    -->
+
     <ContentPage.Content>
 
         <!--agrego syncfusion-->
@@ -35,8 +30,8 @@
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <!--<ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>-->
             </Grid.ColumnDefinitions>
 
             <!--<SearchBar Placeholder="Buscar" Grid.Row="0" Grid.ColumnSpan="4"  x:Name="FicSearchBar"/>-->
@@ -48,8 +43,8 @@
 
                 <syncfusion:SfDataGrid.Columns x:TypeArguments="syncfusion:Columns">
                     <syncfusion:GridTextColumn HeaderText="Id" MappingName="IdActividad" />
-                    <syncfusion:GridTextColumn HeaderText="Descripción" MappingName="ClaveActividad" />
-                    <syncfusion:GridTextColumn HeaderText="Detalle" MappingName="DesActividad" />
+                    <syncfusion:GridTextColumn HeaderText="Descripcion" MappingName="DesActividad" />
+                    <syncfusion:GridTextColumn HeaderText="Detalle" MappingName="Detalle" />
                 </syncfusion:SfDataGrid.Columns>
             </syncfusion:SfDataGrid>
         </Grid>

@@ -12,8 +12,6 @@ namespace ActividadesDeApoyo.Models.Actividades
         [StringLength(100)]
         public String Detalle { get; set; }
         [StringLength(3000)]
-        public DateTime FechaReg { get; set; }
-        public Nullable<DateTime> FechaUltMod { get; set; }
         public String Activo { get; set; }
         [StringLength(1)]
         public String Borrado { get; set; }
@@ -22,5 +20,7 @@ namespace ActividadesDeApoyo.Models.Actividades
         [StringLength(20)]
         public String UsuarioMod { get; set; }
         [StringLength(20)]
+        public DateTime FechaReg { get; set; }
+        public Nullable<DateTime> FechaUltMod { get; set; }
     }
 }

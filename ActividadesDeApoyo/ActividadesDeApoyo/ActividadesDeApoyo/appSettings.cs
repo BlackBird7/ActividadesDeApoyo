@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ActividadesDeApoyo
 {
-    class appSetttings
+    public class appSettings
     {
         public static string FicDataBaseName = "DB_ACT.db3";
     }

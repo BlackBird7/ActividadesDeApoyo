@@ -7,6 +7,8 @@ using Autofac;
 using ActividadesDeApoyo.ViewModels.CatActividades;
 using ActividadesDeApoyo.Services.CatActividades;
 using ActividadesDeApoyo.Interfaces.CatActividades;
+using ActividadesDeApoyo.Services.Navigation;
+using ActividadesDeApoyo.Interfaces.Navigation;
 
 namespace ActividadesDeApoyo.ViewModels.Base
 {
@@ -31,7 +33,7 @@ namespace ActividadesDeApoyo.ViewModels.Base
 
             #region REGISTRO DE VIEWMODELS CON SERVICIOS
 
-            //LOCALIDADES
+            //Actividades
             FicContainerBuilder.RegisterType<FicSrvAppActividades>().As<IFicSrvAppActividades>();
             FicContainerBuilder.RegisterType<FicSrvNavigationActividades>().As<IFicSrvNavigationActividades>().SingleInstance();
 

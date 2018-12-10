@@ -19,13 +19,13 @@ namespace ActividadesDeApoyo.ViewModels.CatActividades
             FicLoSrvApp = FicPaSrvApp;
         }
 
-        private cat_actividades _Localidad;
-        public cat_actividades Localidad
+        private cat_actividades _Actividad;
+        public cat_actividades Actividad
         {
-            get { return _Localidad; }
+            get { return _Actividad; }
             set 
             {
-                _Localidad = value;
+                _Actividad = value;
                 RaisePropertyChanged();
             }
         }
@@ -43,7 +43,7 @@ namespace ActividadesDeApoyo.ViewModels.CatActividades
         public override void OnAppearing(object navigationContext)
         {
             base.OnAppearing(navigationContext);
-            Localidad = navigationContext as cat_actividades;
+            Actividad = navigationContext as cat_actividades;
         }
 
 

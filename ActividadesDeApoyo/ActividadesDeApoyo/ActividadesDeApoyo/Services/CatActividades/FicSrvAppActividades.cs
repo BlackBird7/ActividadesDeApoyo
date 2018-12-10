@@ -62,7 +62,7 @@ namespace ActividadesDeApoyo.Services.CatActividades
         #endregion
 
         #region SERVICIO: ACTUALIZA REGISTRO
-        public async Task FicMetUpdateActividad(cat_actividades actividad)
+        public async Task FicMetUpdateActividades(cat_actividades actividad)
         {
             using (await ficMutex.LockAsync().ConfigureAwait(false))
             {
