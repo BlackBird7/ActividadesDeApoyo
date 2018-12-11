@@ -47,6 +47,7 @@ namespace ActividadesDeApoyo.Services.CatActividades
             {
                 var consulta = FicLoDBContext.cat_actividades.Max(l => l.IdActividad);
                 actividad.IdActividad = consulta;
+                
             }
             return actividad;
         }
@@ -69,7 +70,10 @@ namespace ActividadesDeApoyo.Services.CatActividades
                 FicLoDBContext.Entry(actividad).State =
                     Microsoft.EntityFrameworkCore.EntityState.Modified;
                 FicLoDBContext.SaveChanges();
+
+                
             }
+                        
         }
         #endregion
 

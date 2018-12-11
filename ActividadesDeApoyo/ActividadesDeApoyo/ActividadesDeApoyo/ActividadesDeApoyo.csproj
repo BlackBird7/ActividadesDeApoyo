@@ -31,6 +31,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\API\FICViExportar.xaml.cs">
+      <DependentUpon>FICViExportar.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\API\FICViExportar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\API\FicViImportar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\CatActividades\FicViCatActividadesCreate.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

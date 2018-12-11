@@ -1,39 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
              x:Class="ActividadesDeApoyo.Views.CatActividades.FicViCatActividadesRead">
-    <ContentPage.Content>
+    <StackLayout>
         <ScrollView>
-            <StackLayout VerticalOptions="StartAndExpand" Padding="20">
+            <Grid  Padding ="20" RowSpacing="10" ColumnSpacing="5" HorizontalOptions="FillAndExpand">
 
-               
-                <Label Text="Id: "/>
-                <Entry Text="{Binding Actividad.IdActividad}" IsEnabled="false"/>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Id: " Grid.Column="0" Grid.Row="0"/>
+                <Label Text="Descripcion Actividad: " Grid.Column="0" Grid.Row="1"/>
+                <Label Text="Detalle: "  Grid.Column="0" Grid.Row="2"/>
+                <Label Text="Usuario Registro: " Grid.Column="0" Grid.Row="4"/>
+                <Label Text="Fecha Registro: "  Grid.Column="0" Grid.Row="5"/>
+                <Label Text="Usuario Modificación: "  Grid.Column="0" Grid.Row="6"/>
+                <Label Text="Fecha de Modificacion: "  Grid.Column="0" Grid.Row="7"/>
+                <Label Text="Activo: "  Grid.Column="0" Grid.Row="8"/>
+                <Label Text="Borrado: "  Grid.Column="0" Grid.Row="9"/>
 
-                <Label Text="Descripción: "/>
-                <Entry Text="{Binding Actividad.DesActividad}" IsEnabled="false"/>
 
-                <Label Text="Detalle: "/>
-                <Entry Text="{Binding Actividad.Detalle}" IsEnabled="false"/>
-
-                <Label Text="Fecha de registro: "/>
-                <Entry Text="{Binding Actividad.FechaReg}" IsEnabled="false"/>
-
-                <Label Text="Usuario: "/>
-                <Entry Text="{Binding Actividad.UsuarioReg}" IsEnabled="false"/>
-
-                <Label Text="Usuario modifica: "/>
-                <Entry Text="{Binding Actividad.UsuarioMod}" IsEnabled="false"/>
-
-
-                <Label Text="Activo: "/>
-                <Switch IsToggled="{Binding Actividad.Activo}" IsEnabled="false"></Switch>
-
-                <Label Text="Borrado: "/>
-                <Switch IsToggled="{Binding Actividad.Borrado}" IsEnabled="false"></Switch>
-
-                <Button Text="Atras" Command="{Binding BackNavgCommand}" BackgroundColor="DarkRed" TextColor="White"/>
-            </StackLayout>
+                <Label Text="{Binding Actividad.IdActividad}" Grid.Column="1" Grid.Row="0"/>
+                <Label Text="{Binding Actividad.DesActividad}" Grid.Column="1" Grid.Row="1"/>
+                <Label Text="{Binding Actividad.Detalle}" Grid.Column="1" Grid.Row="2"/>
+                <Label Text="{Binding Actividad.UsuarioReg}" Grid.Column="1" Grid.Row="4"/>
+                <Label Text="{Binding Actividad.FechaReg}" Grid.Column="1" Grid.Row="5"/>
+                <Label Text="{Binding Actividad.UsuarioMod}" Grid.Column="1" Grid.Row="6"/>
+                <Label Text="{Binding Actividad.FechaUltMod}" Grid.Column="1" Grid.Row="7"/>
+                <Label Text="{Binding Actividad.Activo}" Grid.Column="1" Grid.Row="8"/>
+                <Label Text="{Binding Actividad.Borrado}" Grid.Column="1" Grid.Row="9"/>
+            </Grid>
         </ScrollView>
-    </ContentPage.Content>
+        <StackLayout Orientation="Horizontal" Margin="20">
+            <Button Command="{Binding BackNavgCommand}" Text="Regresar" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

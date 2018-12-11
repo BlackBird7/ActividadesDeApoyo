@@ -8,7 +8,7 @@ using System.Data;
 
 namespace ActividadesDeApoyo.Data
 {
-    class FicDBContext : DbContext
+    public class FicDBContext : DbContext
     {
         private readonly string FicDBPath;
 

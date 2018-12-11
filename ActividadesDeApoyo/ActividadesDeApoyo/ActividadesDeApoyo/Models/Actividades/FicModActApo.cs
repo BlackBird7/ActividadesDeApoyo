@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -22,5 +24,9 @@ namespace ActividadesDeApoyo.Models.Actividades
         [StringLength(20)]
         public DateTime FechaReg { get; set; }
         public Nullable<DateTime> FechaUltMod { get; set; }
+    }
+    public class CatActividadesApoyo
+    {
+        public List<cat_actividades> cat_Actividades { get; set; }
     }
 }

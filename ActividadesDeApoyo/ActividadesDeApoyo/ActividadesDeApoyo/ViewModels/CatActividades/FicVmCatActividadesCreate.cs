@@ -88,6 +88,7 @@ namespace ActividadesDeApoyo.ViewModels.CatActividades
             }
 
             Actividad.FechaReg = DateTime.Now;
+            Actividad.UsuarioReg = "Leo";
             //Actividad.FechaUltMod = DateTime.Now;
 
             if (Actividad.Activo.Equals("True"))

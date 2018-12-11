@@ -10,6 +10,10 @@ using ActividadesDeApoyo.Interfaces.CatActividades;
 using ActividadesDeApoyo.Services.Navigation;
 using ActividadesDeApoyo.Interfaces.Navigation;
 
+using ActividadesDeApoyo.Services.API;
+using ActividadesDeApoyo.ViewModels.API;
+using ActividadesDeApoyo.Interfaces.API;
+
 namespace ActividadesDeApoyo.ViewModels.Base
 {
     public class FicViewModelLocator
@@ -29,6 +33,9 @@ namespace ActividadesDeApoyo.ViewModels.Base
             FicContainerBuilder.RegisterType<FicVmCatActividadesRead>();
             FicContainerBuilder.RegisterType<FicVmCatActividadesUpdate>();
 
+            FicContainerBuilder.RegisterType<FicVmExportar>();
+            FicContainerBuilder.RegisterType<FicVmImportar>();
+
             #endregion
 
             #region REGISTRO DE VIEWMODELS CON SERVICIOS
@@ -37,6 +44,9 @@ namespace ActividadesDeApoyo.ViewModels.Base
             FicContainerBuilder.RegisterType<FicSrvAppActividades>().As<IFicSrvAppActividades>();
             FicContainerBuilder.RegisterType<FicSrvNavigationActividades>().As<IFicSrvNavigationActividades>().SingleInstance();
 
+
+            FicContainerBuilder.RegisterType<FicSrvImportar>().As<IFicSrvImportar>();
+            FicContainerBuilder.RegisterType<FicSrvExportar>().As<IFicSrvExportar>();
             #endregion
 
             //FIC: se asigna o se libera el contenedor
@@ -70,6 +80,17 @@ namespace ActividadesDeApoyo.ViewModels.Base
         }
         #endregion
 
-     
+        #region Control de Web Api
+        public FicVmExportar FicVmExportar
+        {
+            get { return FicIContainer.Resolve<FicVmExportar>(); }
+        }
+        public FicVmImportar FicVmImportar
+        {
+            get { return FicIContainer.Resolve<FicVmImportar>(); }
+        }
+        #endregion
+
+
     }//CLASS
 }//NAMESPACE

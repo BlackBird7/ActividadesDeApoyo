@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ActividadesDeApoyo.Views.API.FicViImportar">
+    <ContentPage.Content>
+        <ScrollView >
+            <StackLayout Padding="10" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <Entry Text="{Binding FicLabelId}"/>
+                    <Button Text="IMPORTAR REGISTRO POR ID: " Command="{Binding FicMecImportId}"/>
+                </StackLayout>
+                <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="LightGray">
+                    <Label Text="{Binding FicTextAreaImp}" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Padding="10" Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center">
+                    <Button Text="IMP. CATALOGO."  Command="{Binding FicMecImport}"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

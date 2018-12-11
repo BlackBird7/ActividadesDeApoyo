@@ -7,6 +7,9 @@ using ActividadesDeApoyo.Interfaces.Navigation;
 using ActividadesDeApoyo.Views.CatActividades;
 using ActividadesDeApoyo.ViewModels.CatActividades;
 
+using ActividadesDeApoyo.Views.API;
+using ActividadesDeApoyo.ViewModels.API;
+
 namespace ActividadesDeApoyo.Services.Navigation
 {
     public class FicSrvNavigationActividades : IFicSrvNavigationActividades
@@ -19,6 +22,9 @@ namespace ActividadesDeApoyo.Services.Navigation
             { typeof(FicVmCatActividadesCreate), typeof(FicViCatActividadesCreate)},
             { typeof(FicVmCatActividadesRead), typeof(FicViCatActividadesRead)},
             { typeof(FicVmCatActividadesUpdate), typeof(FicViCatActividadesUpdate)},
+
+            { typeof(FicVmExportar), typeof(FICViExportar)},
+            { typeof(FicVmImportar), typeof(FicViImportar)},
         };
 
         public void FicMetNavigateTo<TDestinationViewModel>(object navigationContext = null)

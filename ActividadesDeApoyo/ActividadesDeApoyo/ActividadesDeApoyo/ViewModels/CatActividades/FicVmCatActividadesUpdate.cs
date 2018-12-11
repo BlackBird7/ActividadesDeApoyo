@@ -47,6 +47,7 @@ namespace ActividadesDeApoyo.ViewModels.CatActividades
         private void UpdateActividadExecute()
         {
             Actividad.FechaUltMod = DateTime.Now;
+            Actividad.UsuarioMod = "Leo";
             if (Actividad.Activo.Equals("True"))
             {
                 Actividad.Activo = "S";

@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-10T03:38:38.536</Modified>
+      <Modified>2018-12-11T03:23:18.413</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\ActividadesDeApoyo.UWP.exe">
       <PackagePath>entrypoint\ActividadesDeApoyo.UWP.exe</PackagePath>
-      <Modified>2018-12-10T03:38:35.544</Modified>
+      <Modified>2018-12-11T03:23:15.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leo\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -901,7 +901,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.dll">
       <PackagePath>ActividadesDeApoyo.dll</PackagePath>
-      <Modified>2018-12-10T03:38:23.537</Modified>
+      <Modified>2018-12-11T03:22:51.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -1048,11 +1048,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-10T03:38:35.098</Modified>
+      <Modified>2018-12-11T03:23:14.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-10T03:38:35.098</Modified>
+      <Modified>2018-12-11T03:23:14.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1157,7 +1157,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo.UWP\bin\x86\Debug\Core\ActividadesDeApoyo.UWP.exe">
       <PackagePath>ActividadesDeApoyo.UWP.exe</PackagePath>
-      <Modified>2018-12-10T03:38:38.515</Modified>
+      <Modified>2018-12-11T03:23:18.404</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

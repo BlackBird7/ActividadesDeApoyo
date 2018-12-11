@@ -1,5 +1,10 @@
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.deps.json
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.dll
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.pdb
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\ActividadesDeApoyo.csprojAssemblyReference.cache
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\Views\API\FICViExportar.xaml.g.cs
+D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\Views\API\FicViImportar.xaml.g.cs
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\Views\CatActividades\FicViCatActividadesCreate.xaml.g.cs
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\Views\CatActividades\FicViCatActividadesList.xaml.g.cs
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\Views\CatActividades\FicViCatActividadesRead.xaml.g.cs
@@ -10,9 +15,6 @@ D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApo
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\ActividadesDeApoyo.csproj.CoreCompileInputs.cache
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\ActividadesDeApoyo.AssemblyInfoInputs.cache
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\ActividadesDeApoyo.AssemblyInfo.cs
-D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.deps.json
-D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.dll
-D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\bin\Debug\netstandard2.0\ActividadesDeApoyo.pdb
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\XamlC.stamp
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\ActividadesDeApoyo.dll
 D:\ProyectoFranki\Xamarin\ActividadesDeApoyo\ActividadesDeApoyo\ActividadesDeApoyo\obj\Debug\netstandard2.0\ActividadesDeApoyo.pdb

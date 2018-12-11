@@ -12,14 +12,11 @@
                 <Label Text="Detalle "/>
                 <Entry Text="{Binding Actividad.Detalle}"/>
 
-                <Label Text="Usuario"/>
-                <Entry Text="{Binding Localidad.UsuarioReg}"/>
-
                 <Label Text="Activo: "/>
-                <Switch IsToggled="{Binding Localidad.Activo}"></Switch>
+                <Switch IsToggled="{Binding Actividad.Activo}"></Switch>
 
                 <Label Text="Borrado: "/>
-                <Switch IsToggled="{Binding Localidad.Borrado}"></Switch>
+                <Switch IsToggled="{Binding Actividad.Borrado}"></Switch>
 
                 <Button Text="Aceptar"  Command="{Binding FicMetCreateCommand}"/>
                 <Button Text="Cancelar" Command="{Binding BackNavgCommand}"/>

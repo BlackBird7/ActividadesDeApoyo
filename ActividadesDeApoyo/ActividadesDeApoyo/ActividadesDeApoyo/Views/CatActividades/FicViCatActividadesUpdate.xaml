@@ -16,16 +16,6 @@
                 <Label Text="Detalle: "/>
                 <Entry Text="{Binding Actividad.Detalle}" />
 
-                <Label Text="Fecha de registro: "/>
-                <Entry Text="{Binding Actividad.FechaReg}" />
-
-                <Label Text="Usuario: "/>
-                <Entry Text="{Binding Actividad.UsuarioReg}" />
-
-                <Label Text="Usuario modifica: "/>
-                <Entry Text="{Binding Actividad.UsuarioMod}" />
-
-
                 <Label Text="Activo: "/>
                 <Switch IsToggled="{Binding Actividad.Activo}" ></Switch>
 
@@ -34,6 +24,7 @@
 
                 <Button Text="Aceptar"  Command="{Binding FicMetUpdateCommand}"/>
                 <Button Text="Cancelar" Command="{Binding BackNavgCommand}"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

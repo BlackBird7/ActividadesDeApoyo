@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ActividadesDeApoyo.Views.CatActividades;
+using ActividadesDeApoyo.Views.API;
 
 
 namespace ActividadesDeApoyo.Views.Navigation
@@ -33,6 +34,14 @@ namespace ActividadesDeApoyo.Views.Navigation
 
                     case "FicViCatActividadesList":
                         item.TargetType = typeof(FicViCatActividadesList);
+                        break;
+
+                    case "FicViImportar":
+                        item.TargetType = typeof(FicViImportar);
+                        break;
+
+                    case "FicViExportar":
+                        item.TargetType = typeof(FICViExportar);
                         break;
 
                     default:

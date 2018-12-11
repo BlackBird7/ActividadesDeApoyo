@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ActividadesDeApoyo.Views.CatActividades;
+using ActividadesDeApoyo.Views.API;
 
 namespace ActividadesDeApoyo.Views.Navigation
 {
@@ -33,7 +34,8 @@ namespace ActividadesDeApoyo.Views.Navigation
                 MenuItems = new ObservableCollection<FicMasterPageMenuItem>(new[]
                 {
                     new FicMasterPageMenuItem { Id = 0, Title = "Actividades",FicPageName="FicViCatActividadesList",TargetType=typeof(FicViCatActividadesList) },
-                   
+                    new FicMasterPageMenuItem { Id = 1, Title = "Exportar",FicPageName="FICViExportar",TargetType=typeof(FICViExportar) },
+                     new FicMasterPageMenuItem { Id = 2, Title = "Importar",FicPageName="FicViImportar",TargetType=typeof(FicViImportar) },
                     //new FicMasterPageMenuItem { Id = 2, Title = "Page 3" },
                     //new FicMasterPageMenuItem { Id = 3, Title = "Page 4" },
                     //new FicMasterPageMenuItem { Id = 4, Title = "Page 5" }, 
